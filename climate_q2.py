@@ -5,6 +5,8 @@ years = []
 co2 = []
 temp = []
 
+df = pd.read_csv("./climate_q2.py")
+
 plt.subplot(2, 1, 1)
 plt.plot(years, co2, 'b--') 
 plt.title("Climate Data") 

@@ -1,8 +1,15 @@
 import matplotlib.pyplot as plt
+import pandas as pd
         
 years = []
 co2 = []
 temp = []
+
+df = pd.read_csv("./climate_q1.py")
+
+years.add(plt.plot[0])
+co2.add(plt.plot[1])
+temp.add(plt.plot[1])
 
 plt.subplot(2, 1, 1)
 plt.plot(years, co2, 'b--') 
